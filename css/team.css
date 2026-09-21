@@ -25,3 +25,29 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
+.teamer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0;
+  padding: 120px 0;
+  width: 1440px;
+  height: 732px;
+}
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  height: 380px;
+}
+.user-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.users img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

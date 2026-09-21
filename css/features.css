@@ -9,3 +9,27 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.features {
+  display: flex;
+  padding: 120px 141px;
+  width: 1440px;
+  height: 344px;
+}
+.paragraph-title-text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  width: 1158px;
+  height: 104px;
+  max-width: 1158px;
+
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+
+  gap: 24px;
+}
+.card {
+  width: calc((100% - 72px) / 4);
+}
