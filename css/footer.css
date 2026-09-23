@@ -1,28 +1,19 @@
-.end {
+.footer {
   padding: 100px 0;
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
-.end .container {
-  display: flex;
-  padding: 0 15px;
-  width: 1158px;
-  height: 112px;
-  max-width: 1158px;
-}
-.content-footer {
+.footer-container {
   display: flex;
   flex-direction: column;
-  width: 264px;
-  height: 112px;
-  max-width: 264px;
+  align-items: flex-start;
+ 
 }
 
+
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
-  width: 115px;
-  height: 24px;
+  
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -32,6 +23,7 @@
   color: #f4f4fd;
 }
 .footer-text {
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
