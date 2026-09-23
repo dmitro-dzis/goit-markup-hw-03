@@ -1,12 +1,12 @@
 .header {
   border-bottom: 1px solid #e7e9fc;
 
-  height: 72px;
+  
 }
 .header-container {
   display: flex;
   align-items: center;
-  height: 100%;
+  
 }
 
 .logo {
