@@ -8,12 +8,12 @@ body {
 .title {
   padding: 188px 0;
 }
-section {
+.section {
   padding: 120px 0;
 }
 /* під питанням */
 .container {
-  width: 1158px;
+
   margin: 0 auto;
   padding: 0 15px;
 }
